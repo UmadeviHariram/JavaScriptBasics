@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Basics</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Passenger Counter app -->
+    <div class="container">
+        <h1>People entered</h1>
+        <h1 id="countPeople" contenteditable="true">0</h1>
+        <button onclick="count()" class="increment-btn">Increment</button>
+        <button onclick="reset()" class="reset-btn">Reset</button>
+        <button onclick="save()" class="save-btn">Save</button>
+        <h1 id="save-el">Previous entries: </h1>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
